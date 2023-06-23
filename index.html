@@ -1,0 +1,45 @@
+<svg viewBox="0 0 1440 120" class="wave">
+<!--line for the svg viewbox::1 -->
+
+<!--
+Attributes::
+M, L,C,
+
+M (move to), 
+L (line to),
+C (curve to),
+d attribute define the shape of the wave.
+
+
+Explanation::
+
+M1440,21.2101911: This command M signifies a "move to" operation, indicating that the path should start at the coordinates (1440, 21.2101911).
+
+L1440,120: The L command represents a "line to" operation, drawing a straight line from the current position to the coordinates (1440, 120).
+
+L0,120: Another "line to" operation that draws a straight line from the previous point to the coordinates (0, 120).
+
+L0,21.2101911: Yet another "line to" operation, drawing a straight line from the previous point to (0, 21.2101911), effectively closing the shape.
+
+C120,35.0700637 240,42 360,42: This command C denotes a "curve to" operation. It defines a cubic Bézier curve with control points (120, 35.0700637), (240, 42), and an ending point (360, 42).
+
+C480,42 600,35.0700637 720,21.2101911: Another "curve to" operation that continues the curve with control points (480, 42), (600, 35.0700637), and an ending point (720, 21.2101911).
+
+C808.32779,12.416393 874.573633,6.87702029 918.737528,4.59207306: Another "curve to" operation extending the curve with control points (808.32779, 12.416393), (874.573633, 6.87702029), and an ending point (918.737528, 4.59207306).
+
+C972.491685,1.8109458 1026.24584,0.420382166 1080,0.420382166: Another "curve to" operation continuing the curve with control points (972.491685, 1.8109458), (1026.24584, 0.420382166), and an ending point (1080, 0.420382166).
+
+C1200,0.420382166 1320,7.35031847 1440,21.2101911: The final "curve to" operation that completes the curve with control points (1200, 0.420382166), (1320, 7.35031847), and an ending point (1440, 21.2101911).
+
+Z: The Z command signifies a "close path" operation, connecting the current point to the starting point, effectively closing the shape.
+
+-->
+
+<path d="M1440,21.2101911 L1440,120 L0,120 L0,21.2101911 C120,35.0700637 240,42 360,42 C480,42 600,35.0700637 720,21.2101911 C808.32779,12.416393 874.573633,6.87702029 918.737528,4.59207306 C972.491685,1.8109458 1026.24584,0.420382166 1080,0.420382166 C1200,0.420382166 1320,7.35031847 1440,21.2101911 Z">
+
+
+
+</path>
+
+</svg>
+
